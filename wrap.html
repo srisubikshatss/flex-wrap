@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+      .container{
+        border: 30px solid blueviolet;
+        padding: 22px;
+      }
+       .box{
+        padding: 2p2x;
+        border: 3px solid rgb(43, 178, 205);
+        margin: 1px;
+        font-size: 25px;
+        font-weight: bold;
+       }
+       .box:nth-child(2){
+        flex-grow: 2;
+       }
+
+    .container{
+        width: 500px;
+        display:flex ;
+flex-grow: 2;
+    }
+    </style>
+</head>
+<body>
+    <h1>Flex Direction  </h1>
+     <div class ="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+     </div>
+</body>
+</html>
